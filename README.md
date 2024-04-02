@@ -255,3 +255,6 @@ local function LYDQVOH_fake_script() -- OpButton.LocalScript
 	script.Parent.MouseButton1Click:Connect(MN)
 end
 coroutine.wrap(LYDQVOH_fake_script)()
+Toggle.MouseButton1Down(function()
+	_G.HEE = true
+end)
